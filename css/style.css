@@ -7,7 +7,7 @@
   --hover-color: rgb(148, 207, 255);
 }
 .container {
-  width: 1054px;
+  width: 1330px;
   height: 100%;
   padding-left: 24px;
   padding-right: 24px;
@@ -112,7 +112,6 @@
 .hero-list {
   margin-left: 178px;
   padding-top: 180px;
-  align-items: center;
 }
 .hero-text {
   width: 298px;
@@ -185,6 +184,18 @@
   color: var(--black-color);
   display: flex;
   justify-content: center;
+}
+.trailer {
+  width: 1440px;
+  margin: 0 auto;
+  height: 741px;
+  align-items: center;
+}
+.trailer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 .language-list {
   display: flex;
