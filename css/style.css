@@ -1,0 +1,297 @@
+:root {
+  --white-color: rgb(255, 255, 255);
+  --white-blue-color: rgb(38, 198, 234);
+  --blue-color: rgb(11, 14, 102);
+  --black-color: rgb(0, 0, 0);
+  --gray-color: rgb(43, 74, 97);
+  --hover-color: rgb(148, 207, 255);
+}
+.container {
+  width: 1330px;
+  height: 100%;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  width: 1440px;
+  height: 150px;
+  margin: 0 auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(43, 74, 97, 0.87),
+      rgba(43, 74, 97, 0.87)
+    ),
+    url(../img/Rectangle\ 12.jpeg);
+}
+.header-nav-list {
+  display: flex;
+  transition: var(--hover-color) 0.3s ease;
+}
+.link-golovna {
+  color: var(--white-color);
+}
+.link-aboutus {
+  color: var(--white-color);
+}
+.link-contact {
+  color: var(--white-color);
+  margin-right: 212px;
+}
+.header-nav-item {
+  margin-right: 38px;
+}
+.header-logo {
+  width: 189px;
+  height: 72px;
+  margin-right: 168px;
+}
+.header-golovna {
+  color: var(--white-color);
+}
+.header-flex {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+}
+.header-nav-item {
+  color: var(--white-color);
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24.4px;
+}
+.header-nav-item {
+  color: var(--hover-color);
+  font-weight: 600;
+}
+.header-span {
+  color: var(--white-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  width: 30px;
+  height: 20px;
+}
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-button {
+  width: 141px;
+  height: 41.69px;
+  border-radius: 35px 0px 35px 0px;
+  background-color: var(--blue-color);
+  outline: 2px solid var(--white-blue-color);
+  color: var(--white-blue-color);
+  margin-right: 49px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  cursor: pointer;
+  font-family: "Headlandone", serif;
+}
+.header-span {
+  gap: 10px;
+}
+.header-list {
+  gap: 38px;
+  margin-right: 212px;
+}
+.hero {
+  width: 1440px;
+  height: 740px;
+  margin: 0 auto;
+  background-image: url(../img/Group\ 48\ 1.jpeg);
+}
+
+.hero-list {
+  margin-left: 178px;
+  padding-top: 180px;
+  align-items: center;
+}
+.hero-text {
+  width: 298px;
+  color: var(--white-color);
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin-left: 210px;
+}
+.hero-arrow {
+  width: 152px;
+  height: 40px;
+  margin-left: 263px;
+}
+.hero-button {
+  width: 260px;
+  height: 80px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30.06px;
+  text-align: center;
+  background-color: var(--blue-color);
+  outline: 2px solid var(--white-blue-color);
+  border-radius: 45px 0px 45px 0px;
+  color: var(--white-blue-color);
+  margin-top: 43.16px;
+  margin-left: 210px;
+  cursor: pointer;
+  font-family: "Headlandone", serif;
+}
+.hero-list-img {
+  position: relative;
+  left: 1186px;
+  bottom: 200px;
+  gap: 25px;
+  vertical-align: middle;
+  flex-direction: column-reverse;
+}
+.eng {
+  margin-right: 10px;
+}
+.ua {
+  margin-left: 10px;
+}
+.hero-list-img {
+  display: flex;
+}
+.hero-social {
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+}
+.quotes {
+  text-align: center;
+  width: 1440px;
+  height: 350px;
+  margin: 0 auto;
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 44px;
+}
+.quotes-link {
+  width: 400px;
+  height: 120px;
+  margin: 0 auto;
+}
+.blockquote-subtext {
+  color: var(--black-color);
+  display: flex;
+  justify-content: center;
+}
+.trailer {
+  width: 1440px;
+  margin: 0 auto;
+  height: 741px;
+  align-items: center;
+  background-image: url(../img/Rectangle\ 10.jpeg);
+}
+.trailer-button {
+  border: 3px solid rgb(38, 199, 234);
+  border-radius: 45px 0px 45px 0px;
+  background-color: var(--blue-color);
+  cursor: pointer;
+  width: 221px;
+  padding-bottom: 25px;
+  padding-top: 20px;
+  font-weight: 400px;
+  font-size: 24px;
+  color: var(--white-blue-color);
+  font-family: "Headlandone", serif;
+  line-height: 19px;
+}
+.trailer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.language-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 36px;
+  row-gap: 24px;
+  justify-content: center;
+}
+.language-navi {
+  height: 704px;
+  width: 1440px;
+  background-image: url(../img/Rectangle\ 20.jpeg);
+  margin: 0 auto;
+  text-align: center;
+}
+.language-arrow {
+  width: 152px;
+  height: 40px;
+}
+.language-list-item {
+  width: 320px;
+  height: 240px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.language-title {
+  padding-top: 58px;
+  padding-bottom: 45px;
+}
+.language-text {
+  margin-top: 36px;
+  font-size: 24px;
+}
+footer {
+  display: flex;
+  align-items: center;
+}
+.footer {
+  width: 1440px;
+  height: 223px;
+  margin: 0 auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(43, 74, 97, 0.87),
+      rgba(43, 74, 97, 0.87)
+    ),
+    url(../img/Rectangle\ 104.jpeg);
+}
+.footer-subtext {
+  color: var(--white-color);
+  font-size: 14px;
+  line-height: 17px;
+  font-family: Inter;
+  text-align: center;
+  padding-top: 25px;
+}
+.footer-item {
+  gap: 20px;
+  align-items: center;
+}
+.footer-text {
+  color: var(--white-color);
+  font-family: Inter;
+  font-size: 20px;
+}
+.border {
+  border: 2px dashed;
+  width: 269px;
+  height: 0px;
+}
+.footer-logo {
+  margin-left: 204px;
+  margin-right: 81px;
+}
+.footer-list {
+  align-items: center;
+}
+.footer-item {
+  display: flex;
+  justify-content: center;
+}
+.footer-link {
+  color: var(--white-color);
+}
