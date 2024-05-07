@@ -7,7 +7,7 @@
   --hover-color: rgb(148, 207, 255);
 }
 .container {
-  width: 1330px;
+  width: 1054px;
   height: 100%;
   padding-left: 24px;
   padding-right: 24px;
@@ -192,20 +192,6 @@
   height: 741px;
   align-items: center;
   background-image: url(../img/Rectangle\ 10.jpeg);
-}
-.trailer-button {
-  border: 3px solid rgb(38, 199, 234);
-  border-radius: 45px 0px 45px 0px;
-  background-color: var(--blue-color);
-  cursor: pointer;
-  width: 221px;
-  padding-bottom: 25px;
-  padding-top: 20px;
-  font-weight: 400px;
-  font-size: 24px;
-  color: var(--white-blue-color);
-  font-family: "Headlandone", serif;
-  line-height: 19px;
 }
 .trailer {
   display: flex;
