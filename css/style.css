@@ -186,19 +186,6 @@
   display: flex;
   justify-content: center;
 }
-.trailer {
-  width: 1440px;
-  margin: 0 auto;
-  height: 741px;
-  align-items: center;
-  background-image: url(../img/Rectangle\ 10.jpeg);
-}
-.trailer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
 .language-list {
   display: flex;
   flex-wrap: wrap;
