@@ -25,7 +25,7 @@
       rgba(43, 74, 97, 0.87)
     ),
     url(../img/Rectangle\ 12.jpeg);
-      border-bottom: 3px solid var(--white-color);
+  border-bottom: 3px solid var(--white-color);
 }
 .header-nav-list {
   display: flex;
