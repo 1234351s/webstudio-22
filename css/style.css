@@ -30,8 +30,8 @@
 .header-nav-list {
   display: flex;
 }
-.header-nav-list:hover,
-.header-nav-list:focus {
+.header-nav:hover,
+.header-nav:focus {
   color: var(--hover-color);
 }
 .link-golovna {
